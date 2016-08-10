@@ -1,1 +1,3 @@
-# Nightjay.github.io
+# welcome~
+
+Just a simple homepage.
