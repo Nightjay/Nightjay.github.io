@@ -99,7 +99,7 @@ a {
 }
 
 .google {
-	width: 410px;
+	width: 400px;
 	border: 0px; border-left: solid #FF6961 10px;
 	margin: 0 auto;
 	display: block;
@@ -114,7 +114,7 @@ a {
 }
 
 .naver {
-	width: 410px;
+	width: 400px;
 	border: 0px; border-left: solid #A2FF85 10px;
 	margin: 0 auto;
 	display: block;
@@ -161,7 +161,7 @@ a {
 }
 
 .notebox {
-	width: 410px;
+	width: 400px;
 	height: 35px;
 	border: 0px; border-left: solid #848484 10px;
 	margin: 0 auto;
