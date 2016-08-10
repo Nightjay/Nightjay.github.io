@@ -1,0 +1,109 @@
+<!-- Designed by Frank Pattiasina -->
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="kr">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<link rel='stylesheet' href='index.css' />
+<title>welcome</title>
+</head>
+
+<body>
+
+<center>
+<div class='title'><p class= 'titleTXT'>welcome frank~</p></div>
+</center>
+
+	<div class='general' id='test'><p class='sub'>general_</p>
+		
+		<!-- start jQuery  -->
+		<!-- fade toggles for reddit and shop boxes -->
+		<script>
+			$(document).ready(
+				function() {
+					$("#redditLabel").click(function() {
+						$("#toggleReddit").fadeToggle();
+					});
+				$("#shoppingLabel").click(function() {
+						$("#toggleShop").fadeToggle();
+					});
+				});
+		</script>
+		<!-- end jQuery -->
+		
+		<!-- Main Categories -->
+		<span id="redditLabel"><a href="#" class='alink'>Reddit</a></span>
+		<a href='http://youtube.com' class='alink'>Youtube</a>
+		<a href='http://melon.com' class='alink'>MelOn</a>
+		<span id="shoppingLabel"><a href="#" class='alink'>Shop</a></span>
+
+	</div>
+
+	<div class='school'><p class='sub'>school_</p>
+		<a href='https://my.plymouth.edu/' class='alink'>myPlymouth</a>
+		<a href='https://drive.google.com/drive' class='alink'>Google Drive</a>
+		<a href='https://turing.plymouth.edu/~fjp1010' class='alink'>Turing Drive</a>
+		<a href='https://www.plymouth.edu/webapp/mydrive/smbwebclient.php' class='alink'>Jupiter Drive</a>
+	</div>
+
+	<div class='work'><p class='sub'>work_</p>
+		<a href='https://go.plymouth.edu/kayako' class='alink'>Kayako</a>
+		<a href='https://go.plymouth.edu/phplive' class='alink'>PHP Live Chat</a>
+		<a href='https://go.plymouth.edu/ape' class='alink'>APE</a>
+		<a href='https://plymouth.edu/global' class = 'alink'>Global PSU</a>
+	</div>
+
+	<div class='social'><p class='sub'>social_</p>
+		<a href='http://gmail.com' class='alink'>Gmail</a>
+		<a href='http://linkedin.com' class='alink'>LinkedIn</a>
+		<a href='http://facebook.com' class='alink'>Facebook</a>
+	</div>
+
+	<p></p> <!-- new line -->
+	
+	<!-- Search and Translate -->
+	<form method="get" action="https://www.google.com/search">
+		<input type="text" placeholder="Google Search" name="q" size="10" value="" autocomplete='false' class='google'>
+	</form>
+	
+	<form method="get" action="http://translate.naver.com/">
+		<input type="text" placeholder="Naver Translate" name="query" size="10" value="" autocomplete='false' class='naver'>
+	</form>
+
+	
+	<!-- Sub Categories -->
+	<div id='toggleReddit'>
+		<div class='reddit'><p class='sub'>reddit_</p>
+			<a href='http://reddit.com/r/askreddit' class='alink'>r/askreddit</a>
+			<a href='http://reddit.com/r/kpop' class='alink'>r/kpop</a>
+			<a href='http://reddit.com/r/overwatch' class='alink'>r/overwatch</a>
+			<a href='http://reddit.com/r/leagueoflegends' class='alink'>r/leagueoflegends</a>
+		</div>
+	</div>
+	
+	<div id='toggleShop'>
+		<div class='shop'><p class='sub'>shop_</p>
+			<a href='http://amazon.com' class='alink'>Amazon</a>
+			<a href='http://yesstyle.com' class='alink'>YesStyle</a>
+			<a href='http://ebay.com' class='alink'>eBay</a>
+			<a href='http://jogunshop.com' class='alink'>Jogunshop</a>
+		</div>
+	</div>
+
+	<p></p> <!-- new line -->
+	
+	<!-- Add Notes -->
+	<form method="get">
+		<input type="text" placeholder="notes~" size="10" value="" autocomplete='false' class='notebox'>
+	</form>
+	
+	<script>
+		if (localStorage) {
+			// Local Storage is supported
+		} 
+		else {
+			// Local Storage is not supported.
+		}
+	</script>
+	
+	</body>
+</html>

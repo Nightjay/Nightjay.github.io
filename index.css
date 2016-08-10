@@ -1,0 +1,175 @@
+/* Designed by Frank Pattiasina */
+
+html {
+	background-color: #2b2628;
+	color: #FFF;
+	background-size: 100%;
+}
+
+body {
+	font-family: 'verdana';
+	font-size: 10px;
+	color: #000
+}
+
+.general {
+	margin: 0 auto;
+	background-color: #FFF;
+	width: 400px;
+	height: 60px;
+	border-left: solid #D1DCFF 10px;
+	transition: .2s;
+}
+
+	.general:hover {
+		border-left: solid #D1DCFF 20px;
+}
+
+.school {
+	margin: 0 auto;
+	background-color: #FFF;
+	width: 400px;
+	height: 60px;
+	border-left: solid #FFD1DC 10px;
+	transition: .2s;
+}
+
+	.school:hover {
+		border-left: solid #FFD1DC 20px;
+}
+
+.work {
+	margin: 0 auto;
+	background-color: #FFF;
+	width: 400px;
+	height: 60px;
+	border-left: solid #F5D0A9 10px;
+	transition: .2s;
+}
+
+	.work:hover {
+		border-left: solid #F5D0A9 20px;
+}
+
+.social {
+	margin: 0 auto;
+	background-color: #FFF;
+	width: 400px;
+	height: 60px;
+	border-left: solid #D8CEF6 10px;
+	transition: .2s;
+}
+
+	.social:hover {
+		border-left: solid #D8CEF6 20px;
+}
+
+
+.title {
+	color: #FFF;
+	text-align: center;
+	padding-top: 22px;
+	margin: auto;
+	width: 90px;
+}
+
+.sub {
+	padding-left: 12px;
+	padding-top: 12px;
+	color: #848484;
+}
+
+.titleTXT{
+	color: #ebebeb;
+}
+
+a {
+	padding-left: 16px;
+	text-decoration: none;
+	color: #F8E0F7;
+	outline: 0;
+}
+
+.alink {
+	color: #000;
+}
+
+	a:hover {
+		color: #848484;
+}
+
+.google {
+	width: 410px;
+	border: 0px; border-left: solid #FF6961 10px;
+	margin: 0 auto;
+	display: block;
+	height: 35px;
+	font-family: 'verdana'; font-size: 10px;
+	padding-left: 12px;
+	transition: .2s;
+}
+
+	.google:hover,.google:focus {
+		border-left: solid #FF6961 20px;
+}
+
+.naver {
+	width: 410px;
+	border: 0px; border-left: solid #A2FF85 10px;
+	margin: 0 auto;
+	display: block;
+	height: 35px;
+	font-family: 'verdana'; font-size: 10px;
+	padding-left: 12px;
+	transition: .2s;
+}
+
+	.naver:hover,.naver:focus {
+		border-left: solid #A2FF85 20px; /* OR THIS COLOR #DCFFD1 */
+}
+
+#toggleReddit {
+	display: none;
+}
+
+.reddit {
+	margin: 0 auto;
+	background-color: #FFF;
+	width: 400px;
+	height: 60px;
+	border-left: solid #8bd6bb 10px;
+	transition: .2s;
+}
+	.reddit:hover {
+		border-left: solid #8bd6bb 20px;
+}
+
+#toggleShop {
+	display: none;
+}
+
+.shop {
+	margin: 0 auto;
+	background-color: #FFF;
+	width: 400px;
+	height: 60px;
+	border-left: solid #D68BA6 10px;
+	transition: .2s;
+}
+	.shop:hover {
+		border-left: solid #D68BA6 20px;
+}
+
+.notebox {
+	width: 410px;
+	height: 35px;
+	border: 0px; border-left: solid #848484 10px;
+	margin: 0 auto;
+	display: block;
+	font-family: 'verdana'; font-size: 10px;
+	padding-left: 12px;
+	transition: .2s;
+}
+
+	.notebox:hover,.notebox:focus {
+		border-left: solid #848484 20px;
