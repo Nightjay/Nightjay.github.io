@@ -25,7 +25,7 @@ body {
 		border-left: solid #D1DCFF 20px;
 }
 
-.school {
+.email {
 	margin: 0 auto;
 	background-color: #FFF;
 	width: 400px;
@@ -34,11 +34,11 @@ body {
 	transition: .2s;
 }
 
-	.school:hover {
+	.email:hover {
 		border-left: solid #FFD1DC 20px;
 }
 
-.work {
+.cloud {
 	margin: 0 auto;
 	background-color: #FFF;
 	width: 400px;
@@ -47,11 +47,11 @@ body {
 	transition: .2s;
 }
 
-	.work:hover {
+	.cloud:hover {
 		border-left: solid #F5D0A9 20px;
 }
 
-.social {
+.CATEGORY {
 	margin: 0 auto;
 	background-color: #FFF;
 	width: 400px;
@@ -60,7 +60,7 @@ body {
 	transition: .2s;
 }
 
-	.social:hover {
+	.CATEGORY:hover {
 		border-left: solid #D8CEF6 20px;
 }
 
@@ -124,11 +124,11 @@ a {
 		border-left: solid #A2FF85 20px; /* OR THIS COLOR #DCFFD1 */
 }
 
-#toggleReddit {
+#toggleCATEGORY {
 	display: none;
 }
 
-.reddit {
+.NAME {
 	margin: 0 auto;
 	background-color: #FFF;
 	width: 400px;
@@ -139,33 +139,3 @@ a {
 	.reddit:hover {
 		border-left: solid #8bd6bb 20px;
 }
-
-#toggleShop {
-	display: none;
-}
-
-.shop {
-	margin: 0 auto;
-	background-color: #FFF;
-	width: 400px;
-	height: 60px;
-	border-left: solid #D68BA6 10px;
-	transition: .2s;
-}
-	.shop:hover {
-		border-left: solid #D68BA6 20px;
-}
-
-.notebox {
-	width: 388px;
-	height: 35px;
-	border: 0px; border-left: solid #848484 10px;
-	margin: 0 auto;
-	display: block;
-	font-family: 'verdana'; font-size: 10px;
-	padding-left: 12px;
-	transition: .2s;
-}
-
-	.notebox:hover,.notebox:focus {
-		border-left: solid #848484 20px;
